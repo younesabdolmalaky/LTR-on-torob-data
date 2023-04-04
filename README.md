@@ -1,6 +1,6 @@
 # LTR-on-torob-data
 ## FetchAndPreprocess : 
-This part of the project is based on the solution provided by Tarb 
+This part of the project is based on the solution provided by torob
 ## FeatureExtraction : 
 this part is used to preprocess and vectorize text data for a search engine application. The code uses Python's pandas library to read and process data from JSON lines files. Specifically, it reads preprocessed product titles, aggregated search queries, and preprocessed test queries, and tokenizes them using Keras' Tokenizer class. It then pads the sequences to a maximum length and saves them as pickle files.
 
